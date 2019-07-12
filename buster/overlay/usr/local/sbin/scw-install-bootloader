@@ -1,0 +1,16 @@
+#!/bin/bash
+
+arch_name=$(uname -m)
+case "$arch_name" in
+    "aarch64")
+        arch_name="arm64"
+        ;;
+    "amd64")
+        arch_name="x86_64"
+        ;;
+esac
+grub-install --target=${arch_name}-efi --bootloader-id=grub \
+    --force-extra-removable \
+    --no-uefi-secure-boot \
+    --recheck --efi-dir=/boot/efi
+update-grub
