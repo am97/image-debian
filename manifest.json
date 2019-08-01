@@ -1,18 +1,18 @@
 {
   "images": {
-      "jessie": {
-        "directory": "jessie",
-        "architectures": [
-            "arm", "arm64", "x86_64"
-        ],
-        "marketplace-id": "fb619bdf-834e-4c71-b7b8-15b5546d18bd"
-    },
     "sid": {
         "directory": "sid",
         "architectures": [
             "arm", "arm64", "x86_64"
         ],
         "marketplace-id": "4786d774-dd9c-4d6a-81e6-12d02515ff27"
+    },
+    "buster": {
+        "directory": "buster",
+        "architectures": [
+            "arm64", "x86_64"
+        ],
+        "marketplace-id": "7bdc1afb-231f-486a-9b85-1b0478bc0e4a"
     },
     "stretch": {
         "directory": "stretch",
@@ -21,22 +21,19 @@
         ],
         "marketplace-id": "c94b5df7-e698-4ac9-b273-565d18f5f8d2"
     },
+    "jessie": {
+        "directory": "jessie",
+        "architectures": [
+            "arm", "arm64", "x86_64"
+        ],
+        "marketplace-id": "fb619bdf-834e-4c71-b7b8-15b5546d18bd"
+    },
     "wheezy": {
         "directory": "wheezy",
         "architectures": [
             "arm", "x86_64"
         ],
         "marketplace-id": "895451a5-d298-4cdd-a036-d50f288572d4"
-    },
-    "stretch-25g": {
-        "directory": "stretch",
-        "architectures": [
-            "x86_64"
-        ],
-        "options": {
-            "disk-size": "25G"
-        },
-        "marketplace-id": "cea07784-826f-44a2-b4bf-2b836ddb710c"
     }
   }
 }
