@@ -24,7 +24,7 @@
     "jessie": {
         "directory": "jessie",
         "architectures": [
-            "arm", "arm64", "x86_64"
+            "arm", "x86_64"
         ],
         "marketplace-id": "fb619bdf-834e-4c71-b7b8-15b5546d18bd"
     },
