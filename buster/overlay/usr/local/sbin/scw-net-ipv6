@@ -27,9 +27,9 @@ iface $iface inet6 static
 	netmask $IPV6_NMASK
 	gateway $IPV6_GW
 EOF
+                # only assign to the first physical interface
+                break;
                 fi
-	# only assign to the first physical interface
-	break;
         done
 fi
 
